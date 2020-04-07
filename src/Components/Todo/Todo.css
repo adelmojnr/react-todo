@@ -1,0 +1,59 @@
+body{
+  background: #ececec;
+  height: 100vh;
+  width: 100%;
+}
+
+button{
+  background: transparent;
+  border: 0;
+}
+
+.todo{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 1% 0;
+}
+
+.todo-container{
+  width: 50%;
+  border: 1px solid #999;
+  background: #fff;
+  padding: 2% 0;
+}
+
+.todo-title{
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-ul{
+  padding: 2% 0;
+  list-style: none;
+  margin: 0;
+}
+
+.todo-li{
+  display: flex;
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px 0;
+
+}
+
+.todo-li:hover{
+  border-style: solid;
+  border-color: #999;
+  border-width: 1px 0;
+}
+#todo-li-input{
+  display: flex;
+  width: 100%;
+  overflow: auto;
+}
+
+input{
+  border: 0;
+  padding: 2%;
+}
